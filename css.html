@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 700px;
+            width: 200px;
+            margin: 10px ;
+        }
+        .child{
+            height: 100px;
+            width: 200px;
+            border: 1px solid red;
+            margin: 10px;
+            font-size: 20px;
+        }
+        .child:first-child{
+            background-color: blueviolet;
+        }
+
+        .child:nth-child(2){
+            background-image: url(https://images.pexels.com/photos/20054790/pexels-photo-20054790/free-photo-of-winter-day.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        }
+        .child:nth-child(3){
+            background-color: rgb(219, 184, 41);
+            /* background-image: url(https://images.pexels.com/photos/13636589/pexels-photo-13636589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+        }
+        .child:nth-child(4){
+            background-image: url(https://images.pexels.com/photos/19761007/pexels-photo-19761007/free-photo-of-soumaya.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            /* background-image: url(https://images.pexels.com/photos/20034321/pexels-photo-20034321/free-photo-of-a-hot-air-balloon-flying-through-the-cloudy-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+        }
+        .child:last-child{
+            background-image: url(https://images.pexels.com/photos/16429866/pexels-photo-16429866/free-photo-of-horses-on-pasture-among-trees.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">child1</div>
+        <div class="child">child2</div>
+        <div class="child">child3</div>
+        <div class="child">child4</div>
+        <div class="child">child5</div>
+    </div>
+</body>
+</html>
